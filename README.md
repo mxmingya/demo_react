@@ -1,7 +1,11 @@
 build local: 
 `npm install`
+
 `npm audit fix --force`
+
 `npm start`
+
+
 
 
 # Getting Started with Create React App
