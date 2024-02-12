@@ -14,12 +14,9 @@ const SearchUser = () => {
         let filteredCustomers = data.filter(c => {
                 return c.name.includes(val) || c.age.toString().includes(val) || c.location.includes(val) || c.income.toString().includes(val);
             });
-        console.log(filteredCustomers)
+    
         setData((val == "" || val.length == 0) ? customers : filteredCustomers);
     }
-
-    console.log(customers);
-    console.log(data);
 
     return (
         <div className="centered-container">

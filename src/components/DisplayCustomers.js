@@ -1,7 +1,6 @@
 import React, {useState} from "react"
 
 const DisplayCustomers = ({searchText, customers}) => {
-    console.log(customers);
 
     return (customers.length === 0) ? 
     (
