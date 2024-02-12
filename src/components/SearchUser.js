@@ -33,7 +33,7 @@ const SearchUser = () => {
             </div>
            
             <div className="customer-display-container">
-                <DisplayCustomers searchText={searchText} customers={data}/>
+                <DisplayCustomers customers={data}/>
             </div>
         </div>
     )
